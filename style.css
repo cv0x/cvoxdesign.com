@@ -115,10 +115,22 @@ span {
   box-shadow: 0 0 1rem var(--main-color);
 }
 
-.home-img {
+.home-img img {
   width: 35vw;
-  padding-left: 5rem;
   filter: drop-shadow(0 0 4rem var(--main-color));
+  animation: floatImage 4s ease-in-out infinite;
+}
+
+@keyframes floatImage {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-2.4rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 .btn {
