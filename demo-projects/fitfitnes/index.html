@@ -1,0 +1,75 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang="cs" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="content-type" content="text/html;charset=windows-1250">
+    <link rel ="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" href="web_grafika/logo.png">
+    <title>FIT FITNES Týniště nad Orlicí</title>
+    
+    <script type="text/javascript" language="javascript">
+<!--
+
+doba=3000
+pocet = 4
+rotator=0
+obrsrc = new Array(pocet)
+obrsrc[0]="fotogalerie/big/fitko0.jpg";
+obrsrc[1]="fotogalerie/big/fitko1.jpg";
+obrsrc[2]="fotogalerie/big/fitko3.jpg";
+obrsrc[3]="fotogalerie/big/fitko4.jpg";
+
+obr = new Array(pocet);
+for (i=0; i < pocet; i++){
+obr[i]= new Image();
+obr[i].src= obrsrc[i]
+}
+function rotate() {
+if (rotator==pocet) {rotator=0;}
+document.images["obraz"].src = obrsrc[rotator];
+rotator = rotator + 1
+window.setTimeout('rotate();',doba);
+}
+function poslat() {
+window.location=cesta[rotator-1];
+return false;
+}
+//--></script>
+
+  </head>
+  
+  <body onload="rotate();">
+  <div class="panel">
+    <a href="index.html"><div class="logo"></div></a>
+    <a href="sluzby.html"><div class="buttony button_sluzby"></div></a>
+    <a href="cenik.html"><div class="buttony button_cenik"></div></a>
+    <a href="fotky.html"><div class="buttony button_fotky"></div></a>
+    <a href="kontakt.html"><div class="buttony button_kontakt"></div></a>              
+     
+  </div> <!--KONEC PANEL-->
+   
+  <div class="telo">              
+    <div class="text"> 
+    <div class="nadpis"><h2></h2></div>
+    <div class="nadpis"><h2>FIT FITNES</h2></div>
+    <h2>V Týništi nad Orlicí najdete komplexně</br> zařízené fitness centrum, ve kterém 
+    máte </br> možnost procvičit svá těla a odreagovat </br> se od každodenních povinností.</br></br> 
+    V našem Fit Fitnes si přijdou na své jak </br> vyznavači těžkých činek a strojů, 
+    tak i lidé, </br> dávající přednost aerobním aktivitám </br> či odpočinku v soláriu. </br></br>
+    Čeká na Vás příjemné a čisté prostředí s pohodovou rodinnou atmosférou. </br></br>
+    Rádi poradíme i začátečníkům :-)</h2>
+    
+    <img name="obraz" src="fotogalerie/big/fitko.jpg" alt="" width="350" height="234" 
+                          style="position: absolute; top: -10px; left: 270px" />
+                          
+    <div class="logofitka" style="position: absolute; top: 250px; left: 350px"></div>                      
+    
+    </div>
+  
+  </div> <!--KONEC TELO-->  
+  <div class="zapati">
+    <div class="made">Copyright © 2015 <a href="http://facebook.com/cv0xDesigns"target="_blank">cv0x</a></div>
+    <a href="https://www.facebook.com/pages/FIT-FITNES-T%C3%BDni%C5%A1t%C4%9B-nad-Orlic%C3%AD/219032643362"target="_blank"><div class="fb"></div></a>
+  </div>
+  </body>
+</html> 
+  

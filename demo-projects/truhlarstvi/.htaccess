@@ -1,0 +1,15 @@
+# Pøepis
+
+RewriteCond %{REQUEST_FILENAME} -f [NC,OR]
+RewriteCond %{REQUEST_FILENAME} -d [NC]
+RewriteRule .* - [L]
+RewriteRule ^([\w-]+)$ /$1.html [L,QSA]
+
+
+# Pøepis
+
+RewriteEngine on
+Options +FollowSymlinks
+RewriteCond %{REQUEST_URI} ^(.*).html
+RewriteRule ^(.*).html index.php?stranka=$1 [nc,L,QSA]
+

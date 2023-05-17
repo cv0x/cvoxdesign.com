@@ -1,0 +1,209 @@
+/* CSS Document */
+html, body{
+  margin: 0; 
+  padding: 0; 
+  border: 0;
+  }
+  
+a, a:visited{ color: black; }
+a:hover{ color: gray; }
+a:active{ color: black; }
+
+body{
+  background-image: URL('web_grafika/design/pozadi.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  background-color: black; 
+  height: auto;
+  }
+
+.panel{
+  box-shadow: 0px 0px 10px grey;
+  position: center top;
+  height: 80px;
+  width: 660px;
+  top: 50;
+  left:50;
+  margin: auto;
+  background-color: rgba(250,230,220,0.8);
+  }
+          
+.telo{
+  box-shadow: 0px 0px 10px grey;
+  position: center top;
+  height: 600px;
+  width: 660px;
+  top: 50;
+  left:50;
+  margin: auto;
+  background-color: rgba(250,230,220,0.8);
+  }
+     
+.telo_reference{
+  box-shadow: 0px 0px 10px grey;
+  position: center top;
+  height: 4000px;
+  width: 660px;
+  top: 50;
+  left:50;
+  margin: auto;
+  background-color: rgba(250,230,220,0.8);
+  }
+  
+.logo{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+	height: 67px;
+  width: 142px;
+  left: 0px;
+  top: 10px;
+  background-image:url("web_grafika/design/logotruhlarstvi.png");
+  }
+  
+.buttony {
+	position: relative;
+	display: inline-block;
+  text-align: center;
+	height: 40px;
+  width: 166px;
+  left: 0px;
+  top: 15px;
+  }
+     
+.button_onas{
+  background-image:url("web_grafika/design/button_onas.png");
+  left: 8px;
+  }
+  
+.button_reference{
+  background-image:url("web_grafika/design/button_reference.png");
+  left: 0px;
+  }
+  
+.button_kontakt{
+  background-image:url("web_grafika/design/button_kontakt.png");
+  left: -8px;
+  }
+
+.buttony_aktivni {
+	position: relative;
+	display: inline-block;
+  text-align: center;
+	height: 34px;
+  width: 166px;
+  left: 0px;
+  top: -9px;
+  }
+       
+.buttony:hover {
+  background-position: 0px 120px;
+  }
+  
+.zapati {
+  position: center top;
+  height: 67px;
+  width: 660px;
+  margin: auto;
+  }
+  
+.made{
+  color: black;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  left: 0px;
+  top: -40px;
+  }
+    
+.fb{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+	height: 65px;
+  width: 65px;
+  left: 430px;
+  top: 10px;
+  background-image:url("web_grafika/fb_icon.png");
+  }
+    
+.small {
+  position: relative;
+  display: inline-block;
+  width: 132;
+  height: 99;
+  border: 0;
+
+  }
+  
+
+.text {
+  position: relative;
+  top: 20px;
+  left: 25px;
+	padding: 0px;     
+	height: 0px;
+	width: 600px;
+  text-align: justify;
+  }
+  
+h1 {
+  color: black;
+  font-size: 120%;
+  position: relative;
+  font: Garamond;
+  font-style: oblique;
+  text-align: justify;  
+  }
+  
+h2 {
+  color: black;
+  font-size: 90%;
+  position: relative;
+  }
+  
+p {
+  font-size: 80%;
+  position: relative;
+  text-align: justify;
+  font-style: italic;
+  }
+  
+.nadpis{
+  color: black;
+  font-size: 200%;
+  position: relative;
+  font: Garamond;
+  text-decoration: underline;
+  font-style: oblique;
+  text-align: justify;
+  } 
+  
+img {
+  border: 0;
+  }
+  
+table {
+  width: 600px;
+  text-align: center;
+  border: 0;
+  }
+  
+.hoblina {
+  background-image:url("web_grafika/design/hoblina.png");
+	height: 150px;
+  width: 350px;
+  }
+.hoblina2 {
+  background-image:url("web_grafika/design/hoblina2.png");
+	height: 200px;
+  width: 250px;
+  }
+.hoblik {
+  background-image:url("web_grafika/design/hoblik.png");
+	height: 260px;
+  width: 350px;
+  }
+  
+  
