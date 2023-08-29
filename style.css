@@ -184,7 +184,7 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
+  flex-wrap: wrap; 
   gap: 2rem;
 }
 .services-container .services-box {
