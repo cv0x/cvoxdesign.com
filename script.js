@@ -54,10 +54,28 @@ ScrollReveal().reveal(".home-content p, .about-content", { origin: "lright" });
 
 /* typed js*/
 const typed = new Typed(".multiple-text", {
-  strings: ["Frontend Developer", "Designer", "3D Modeler", "Creator"],
+  strings: [
+    "Frontend vývoj",
+    "Testování",
+    "Design",
+    "3D Modelování",
+    "3D Tisk",
+  ],
   typeSpeed: 100,
   backSpeed: 100,
   backDelay: 1000,
+  loop: true,
+});
+const typedSkills = new Typed(".multiple-text-skills", {
+  strings: [
+    "HTML, CSS, JavaScript",
+    "Git, Docker",
+    "Virtualizace - Proxmox, Linux",
+    "SolidWorks, PrusaSlicer",
+  ],
+  typeSpeed: 50,
+  backSpeed: 50,
+  backDelay: 2000,
   loop: true,
 });
 
