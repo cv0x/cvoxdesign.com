@@ -66,18 +66,7 @@ const typed = new Typed(".multiple-text", {
   backDelay: 1000,
   loop: true,
 });
-const typedSkills = new Typed(".multiple-text-skills", {
-  strings: [
-    "HTML, CSS, JavaScript",
-    "Git, Docker",
-    "Virtualizace - Proxmox, Linux",
-    "SolidWorks, PrusaSlicer",
-  ],
-  typeSpeed: 50,
-  backSpeed: 50,
-  backDelay: 2000,
-  loop: true,
-});
+
 
 /*email js*/
 function sendMail() {

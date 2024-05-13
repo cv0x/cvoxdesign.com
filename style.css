@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -7,7 +7,10 @@
   text-decoration: none;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto Mono", monospace, sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
 }
 
 :root {
@@ -82,7 +85,14 @@ section {
   margin-bottom: 2rem;
 }
 span {
+  flex-direction: row;
+  align-items: center;
   color: var(--main-color);
+}
+span i {
+  width: 5rem;
+  height: 5rem;
+  font-size: 4rem;
 }
 .home-content h1 {
   font-size: 5.6rem;
@@ -184,7 +194,7 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   gap: 2rem;
 }
 .services-container .services-box {
@@ -276,10 +286,23 @@ span {
   background: var(--text-color);
   border-radius: 50%;
 }
+
 .portfolio-layer a i {
   font-size: 2rem;
   color: var(--bg-color);
 }
+.portfolio-tools {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.portfolio-tools i {
+  width: 5rem;
+  height: 5rem;
+  color: var(--main-color);
+  font-size: 4rem;
+}
+
 .contact h2 {
   margin-bottom: 3rem;
 }
