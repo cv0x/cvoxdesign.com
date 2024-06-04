@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jacquard+12&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -7,17 +8,22 @@
   text-decoration: none;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  font-family: "Roboto Mono", monospace, sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
 }
+.jacquard-12-regular {
+  font-family: "Jacquard 12", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
 
 :root {
-  --bg-color: #515751;
-  --second-bg-color: #596869;
+  --bg-color: #242724;
+  --second-bg-color: #394344;
   --text-color: #f5f9e9;
-  --main-color: #8980f5;
+  --main-color: #766afa;
 }
 
 html {
@@ -168,7 +174,7 @@ span i {
   background: var(--second-bg-color);
 }
 .about-img img {
-  width: 35vw;
+  width: 25vw;
   filter: drop-shadow(0 0 2rem var(--main-color));
 }
 .heading {
@@ -186,6 +192,12 @@ span i {
   font-size: 1.5rem;
   font-weight: 600;
   margin: 2rem 0 3rem;
+}
+.about-content a {
+  font-size: 1.7rem;
+  font-weight: 700;
+  color: var(--main-color);
+  display: inline-block;
 }
 .services h2 {
   margin-bottom: 5rem;
@@ -335,6 +347,7 @@ span i {
   resize: none;
 }
 .contact form .btn {
+  background: var(--main-color);
   margin-top: 2rem;
   cursor: pointer;
 }
