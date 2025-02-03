@@ -33,8 +33,9 @@
       <nav class="navbar">
         <a href="#home" class="active">Domů</a>
         <a href="#about">O mně</a>
-        <a href="#services">Služby</a>
+        <a href="#skills">Dovednosti</a>
         <a href="#portfolio">Tvorba</a>
+        <a href="#">Blog</a>
         <a href="#contact">Kontakt</a>
       </nav>
     </header>
@@ -42,31 +43,12 @@
     <!-- home section-->
     <section class="home" id="home">
       <div class="home-content">
-        <h3>Zdravíčko, Já jsem</h3>
+        <h3>Zdravíčko, Jsem</h3>
         <h1>David Oubrecht</h1>
-        <h3>Zajímám se o <span class="multiple-text"></span></h3>
+        <h3>Se zájmem o <br><span class="multiple-text"></span></h3>
         <p>
-          S vášní tvořím webové projekty, design, 3D Modely a
-          tisknu na 3D Tiskárně.
+          „Uprostřed problémů leží příležitost.“
         </p>
-        <h2>Mám zkušenosti s  
-          <span class="skills">
-          <i class='bx bxl-visual-studio' ></i>
-          <i class='bx bxl-html5' ></i>
-          <i class='bx bxl-css3' ></i>
-          <i class='bx bxl-javascript' ></i>
-          <i class='bx bxl-git'></i>
-          
-        </span></h2>
-        <h2>Základní povědomí o 
-          <span class="skills">
-          <i class='bx bxl-docker'></i>
-          <i class='bx bxl-react' ></i>
-          <i class='bx bxl-nodejs' ></i>
-          <i class='bx bxl-mongodb' ></i>
-          <i class='bx bxl-postgresql'></i>
-          
-        </span></h2>
         <div class="social">
           <a href="https://www.linkedin.com/in/davidoubrecht/" aria-label="Linkedin" target="_blank"
             ><i class="bx bxl-linkedin-square"></i
@@ -80,9 +62,7 @@
           <a href="https://twitter.com/Thecv0x" aria-label="Twitter" target="_blank"
             ><i class="bx bxl-twitter"></i
           ></a>
-          <a href="https://www.instagram.com/cv0x/" aria-label="Instagram" target="_blank"
-            ><i class="bx bxl-instagram-alt"></i
-          ></a>
+
         </div>
       </div>
 
@@ -99,18 +79,19 @@
       <div class="about-content">
         <h2 class="heading">O <span>Mně</span></h2>
         <p>
-          Jsem nadšenec IT světa se zkušenostmi a vášní pro technologie. S prvními zkušenostmi s programováním webových stránek v HTML a CSS snad už na základní škole jsem objevil svou fascinaci k digitálnímu světu.
+          Jsem nadšenec IT světa se zkušenostmi a hlubokým zájmem o moderní technologie. Již na základní škole, kdy jsem poprvé experimentoval s tvorbou webových stránek v HTML a CSS, jsem objevil fascinaci digitálním světem, která mě provází dodnes.
         </p>
         <p>
-          Mám rád neustálý rozvoj a zkoumání nových technologií. Mé portfolio obsahuje pár menších projektů, které jsem vyvinul s cílem zdokonalit své dovednosti a vyřešit svůj problém. Mé zájmy nekončí pouze u softwarového vývoje, zajímá mě také svět 3D modelování a tisku, kde rád modeluji praktické věci které zrovna potřebuji a následně je tisknu a tím řeším další svůj problém.
+          Můj přístup je založen na neustálém sebevzdělávání a průzkumu nových technologií. Ve svém portfoliu najdete řadu projektů, které nejenže rozvíjejí mé technické dovednosti, ale zároveň řeší konkrétní reálné problémy. Kromě softwarového vývoje se věnuji také 3D modelování a tisku, kde vytvářím praktické předměty přesně podle aktuálních potřeb.</p>
+        <p>
+          Doma si provozuji vlastní homelab, kde experimentuji s virtuálními stroji a spravuji domácí server, smart home, NAS server i vlastní BTC node. Tento prostor mi umožňuje pracovat s Linux servery, Dockerem, SQL databázemi, Node-Red a dalšími moderními technologiemi.
         </p>
         <p>
-          Doma si provozuji vlastní homelab kde si hraji s virtuálními stroji a spravuji vlastní domácí server, smart home, NAS server nebo vlastní BTC node. Tento prostor mi umožňuje experimentovat s různými věcmi jako je Linux server, Docker, SQL DB, Node-Red...
-        </p>
-        <p>
-          Mimo svou pracovní a tvůrčí činnost jsem také milovníkem aut.
-          Fascinuje mě jejich design a technologie. Sleduji nové trendy v
-          automobilovém průmyslu.
+          Nedávno jsem absolvoval kurz zaměřený na testování softwaru, během kterého jsem zdokonalil své schopnosti v těchto oblastech: 
+          <br>• Tvorba a exekuce testovacích scénářů
+          <br>• Testování REST API a ověřování správnosti dat pomocí SQL
+          <br>• Automatizace testů s využitím frameworku Playwright a Cypress
+          <br>• Identifikace, reportování a sledování chyb
         </p>
         <p>
           Pokud máte zájem o spolupráci nebo máte nějaké dotazy, neváhejte mě
@@ -120,29 +101,33 @@
       </div>
     </section>
 
-    <!-- services section-->
-    <section class="services" id="services">
-      <h2 class="heading">Moje <span>Služby</span></h2>
-      <div class="services-container">
-        <div class="services-box">
+    <!-- skills section-->
+    <section class="skills" id="skills">
+      <h2 class="heading">Moje <span>Dovednosti</span></h2>
+      <div class="skills-container">
+        <div class="skills-box">
           <i class="bx bx-code-curly"></i>
-          <h3>Web Development</h3>
-          <p>Tvorba prezentačních webu na míru.</p>
+          <h3>Webový vývoj</h3>
+          <p>Tvorba webových aplikací za pomoci JavaScript, HTML a CSS</p>
+          <p><img src="res/icons/JavaScript.svg" alt="JavaScript" width="50vw"/><img src="res/icons/HTML5.svg" alt="html" width="50vw"/><img src="res/icons/CSS3.svg" alt="css" width="50vw"/></p>
         </div>
-        <div class="services-box">
-          <i class="bx bx-palette"></i>
-          <h3>Design</h3>
-          <p>Tvorba návrhů webových stránek a log.</p>
+        <div class="skills-box">
+          <i class='bx bx-bug'></i>
+          <h3>Manualní testování</h3>
+          <p>Tvorba a exekuce testovacích scénářů. Testování REST API a použití SQL pro ověřování správnosti dat. </p>
+          <p><img src="res/icons/Postman.svg" alt="Postman" width="50vw"/><img src="res/icons/MySQL.svg" alt="MySQL" width="50vw"/></p>
         </div>
-        <div class="services-box">
-          <i class="bx bxs-cube"></i>
-          <h3>3D Modeling</h3>
-          <p>Tvorba 3D modelů na míru.</p>
+        <div class="skills-box">
+          <i class='bx bx-test-tube'></i>
+          <h3>Automatizované testování</h3>
+          <p>Automatizace testů pomocí frameworku Playwright nebo Cypress.</p>
+          <p><img src="res/icons/Playwrite.svg" alt="Playwrite" width="50vw"/><img src="res/icons/Cypress.svg" alt="Cypress" width="50vw"/></p>
         </div>
-        <div class="services-box">
-          <i class="bx bx-printer"></i>
-          <h3>3D Printing</h3>
-          <p>3D Tisk prototypů a modelů na míru.</p>
+        <div class="skills-box">
+          <i class='bx bx-terminal'></i>
+          <h3>Ostatní technologie</h3>
+          <p>Linux server, Docker, SQL DB, Node-Red</p>
+          <p><img src="res/icons/Docker.svg" alt="Docker" width="50vw"/> <img src="res/icons/Git.svg" alt="Git" width="50vw"/></p>
         </div>
       </div>
     </section>

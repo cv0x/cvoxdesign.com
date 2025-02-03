@@ -55,18 +55,16 @@ ScrollReveal().reveal(".home-content p, .about-content", { origin: "lright" });
 /* typed js*/
 const typed = new Typed(".multiple-text", {
   strings: [
-    "Frontend vývoj",
-    "Testování",
-    "Design",
-    "3D Modelování",
-    "3D Tisk",
+    "Development",
+    "Manual Testing",
+    "Automation Testing",
+    "Quality Assurance",
   ],
   typeSpeed: 100,
   backSpeed: 100,
   backDelay: 1000,
   loop: true,
 });
-
 
 /*email js*/
 function sendMail() {
