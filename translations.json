@@ -11,7 +11,12 @@
     "h2About": "O <span>Mně</span>",
     "h2Skills": "Moje <span>Dovednosti</span>",
     "h2Portfolio": "Poslední <span>Projekty</span>",
-    "h2Contact": "Kontaktujte <span>Mě</span>"
+    "h2Contact": "Kontaktujte <span>Mě</span>",
+    "aboutParagraph1":"Jsem nadšenec IT světa se zkušenostmi a hlubokým zájmem o moderní technologie. Již na základní škole, kdy jsem poprvé experimentoval s tvorbou webových stránek v HTML a CSS, jsem objevil fascinaci digitálním světem, která mě provází dodnes.",
+    "aboutParagraph2":"Můj přístup je založen na neustálém sebevzdělávání a průzkumu nových technologií. Ve svém portfoliu najdete řadu projektů, které nejenže rozvíjejí mé technické dovednosti, ale zároveň řeší konkrétní reálné problémy. Kromě softwarového vývoje se věnuji také 3D modelování a tisku, kde vytvářím praktické předměty přesně podle aktuálních potřeb.",
+    "aboutParagraph3":"Doma si provozuji vlastní homelab, kde experimentuji s virtuálními stroji a spravuji domácí server, smart home, NAS server i vlastní BTC node. Tento prostor mi umožňuje pracovat s Linux servery, Dockerem, SQL databázemi, Node-Red a dalšími moderními technologiemi.",
+    "aboutParagraph4":"Nedávno jsem absolvoval kurz zaměřený na testování softwaru, během kterého jsem zdokonalil své schopnosti v těchto oblastech: <br>• Tvorba a exekuce testovacích scénářů<br>• Testování REST API a ověřování správnosti dat pomocí SQL<br>• Automatizace testů s využitím frameworku Playwright a Cypress<br>• Identifikace, reportování a sledování chyb",
+    "aboutParagraph5":"Pokud máte zájem o spolupráci nebo máte nějaké dotazy, neváhejte mě <a href='#contact' aria-label='contact'>kontaktovat</a>. Těším se na příležitost spolupracovat!"
   },
   "en": {
     "home": "Home",
@@ -25,6 +30,11 @@
     "h2About": "About <span>Me</span>",
     "h2Skills": "My <span>Skills</span>",
     "h2Portfolio": "Latest <span>Projects</span>",
-    "h2Contact": "Contact <span>Me</span>"
+    "h2Contact": "Contact <span>Me</span>",
+     "aboutParagraph1":"I am an IT enthusiast with extensive experience and a deep passion for modern technologies. I discovered my fascination with the digital world as early as elementary school when I first experimented with creating websites using HTML and CSS—a passion that continues to drive me today.",
+    "aboutParagraph2":"My approach is rooted in continuous self-education and exploring new technologies. My portfolio features a range of projects that not only enhance my technical skills but also solve real-world problems. In addition to software development, I am involved in 3D modeling and printing, creating practical objects tailored to current needs.",
+    "aboutParagraph3":"At home, I run my own homelab, where I experiment with virtual machines and manage a home server, smart home system, NAS server, and even my own BTC node. This setup enables me to work with Linux servers, Docker, SQL databases, Node-Red, and other modern technologies.",
+    "aboutParagraph4":" recently completed a course focused on software testing, during which I honed my skills in the following areas: <br>•  Creating and executing test scenarios<br>•  Testing REST APIs and verifying data integrity using SQL<br>• Test automation with the Playwright and Cypress frameworks<br>• Identifying, reporting, and tracking bugs",
+    "aboutParagraph5":"If you are interested in collaborating or have any questions, please do not hesitate to <a href='#contact' aria-label='contact'>contact me</a>. I look forward to the opportunity to work together!"
   }
 }
