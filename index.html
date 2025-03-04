@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -39,22 +39,24 @@
       <i class="bx bx-menu" id="menu-icon"></i>
 
       <nav class="navbar">
-        <a href="#home" class="active">Domů</a>
-        <a href="#about">O mně</a>
-        <a href="#skills">Dovednosti</a>
-        <a href="#portfolio">Tvorba</a>
+        <a href="#home" class="active" data-lang-key="home">Domů</a>
+        <a href="#about" data-lang-key="about">O mně</a>
+        <a href="#skills"  data-lang-key="skills">Dovednosti</a>
+        <a href="#portfolio" data-lang-key="portfolio">Tvorba</a>
+        <a href="#contact" data-lang-key="contact">Kontakt</a>
         <a href="#">Blog</a>
-        <a href="#contact">Kontakt</a>
+        <button id="lang-toggle"><img src="res/icons/czech_republic_round_icon_64.png" alt="czech republic flag" class="flag"> <img src="res/icons/united_kingdom_round_icon_64.png" alt="united kingdom flag" class="flag"></button>
       </nav>
     </header>
 
     <!-- home section-->
     <section class="home" id="home">
       <div class="home-content">
-        <h3>Zdravíčko, Jsem</h3>
+        <h3 data-lang-key="greeting">Zdravíčko, Jsem</h3>
         <h1>David Oubrecht</h1>
-        <h3>Se zájmem o <br><span class="multiple-text"></span></h3>
-        <p>
+        <h3 data-lang-key="interest">Se zájmem o</h3>
+        <h3><span class="multiple-text"></span></h3>
+        <p class="q" data-lang-key="quote">
           „Uprostřed problémů leží příležitost.“
         </p>
         <div class="social">
@@ -85,7 +87,7 @@
         <img src="res/img/logo-foto.webp" alt="Photo of me" width="25vw"/>
       </div>
       <div class="about-content">
-        <h2 class="heading">O <span>Mně</span></h2>
+        <h2 class="heading" data-lang-key="h2About">O <span>Mně</span></h2>
         <p>
           Jsem nadšenec IT světa se zkušenostmi a hlubokým zájmem o moderní technologie. Již na základní škole, kdy jsem poprvé experimentoval s tvorbou webových stránek v HTML a CSS, jsem objevil fascinaci digitálním světem, která mě provází dodnes.
         </p>
@@ -111,7 +113,7 @@
 
     <!-- skills section-->
     <section class="skills" id="skills">
-      <h2 class="heading">Moje <span>Dovednosti</span></h2>
+      <h2 class="heading" data-lang-key="h2Skills">Moje <span>Dovednosti</span></h2>
       <div class="skills-container">
         <div class="skills-box">
           <i class="bx bx-code-curly"></i>
@@ -142,7 +144,7 @@
 
     <!-- potfolio section-->
     <section class="portfolio" id="portfolio">
-      <h2 class="heading">Poslední <span>Projekty</span></h2>
+      <h2 class="heading" data-lang-key="h2Portfolio">Poslední <span>Projekty</span></h2>
       <div class="portfolio-container">
         <div class="portfolio-box">
           <img src="res/img/portfolio9.webp" alt="AutoPhotoSort" />
@@ -297,7 +299,7 @@
 
     <!-- contact section-->
     <section class="contact" id="contact">
-      <h2 class="heading">Kontaktujte <span>Mě</span></h2>
+      <h2 class="heading" data-lang-key="h2Contact">Kontaktujte <span>Mě</span></h2>
       <form action="#">
         <div class="input-box">
           <input type="text" id="name" placeholder="Vaše jméno" />

@@ -1,0 +1,30 @@
+{
+  "cs": {
+    "home": "Domů",
+    "about": "O mně",
+    "skills": "Dovednosti",
+    "portfolio": "Tvorba",
+    "contact": "Kontakt",
+    "greeting": "Zdravíčko, Jsem",
+    "interest": "Se zájmem o ",
+    "quote": "„Uprostřed problémů leží příležitost.“",
+    "h2About": "O <span>Mně</span>",
+    "h2Skills": "Moje <span>Dovednosti</span>",
+    "h2Portfolio": "Poslední <span>Projekty</span>",
+    "h2Contact": "Kontaktujte <span>Mě</span>"
+  },
+  "en": {
+    "home": "Home",
+    "about": "About Me",
+    "skills": "Skills",
+    "portfolio": "Portfolio",
+    "contact": "Contact",
+    "greeting": "Hi, I'm",
+    "interest": "Interested in ",
+    "quote": "„In the middle of difficulty lies opportunity.“",
+    "h2About": "About <span>Me</span>",
+    "h2Skills": "My <span>Skills</span>",
+    "h2Portfolio": "Latest <span>Projects</span>",
+    "h2Contact": "Contact <span>Me</span>"
+  }
+}

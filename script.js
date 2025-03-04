@@ -1,3 +1,37 @@
+/*multilanguage*/
+document.addEventListener("DOMContentLoaded", () => {
+  const langToggle = document.getElementById("lang-toggle");
+  const elements = document.querySelectorAll("[data-lang-key]");
+  let currentLang = localStorage.getItem("lang") || detectUserLanguage();
+
+  function detectUserLanguage() {
+    return navigator.language.startsWith("cs") ? "cs" : "en";
+  }
+
+  /*function to load translations*/
+  function loadTranslations(lang) {
+    fetch("translations.json")
+      .then((response) => response.json())
+      .then((translations) => {
+        document.querySelectorAll("[data-lang-key]").forEach((el) => {
+          const key = el.getAttribute("data-lang-key");
+          if (translations[lang] && translations[lang][key]) {
+            el.innerHTML = translations[lang][key];
+          }
+        });
+        document.documentElement.lang = lang;
+        localStorage.setItem("lang", lang);
+      });
+  }
+  /*toggle language*/
+  langToggle.addEventListener("click", () => {
+    currentLang = currentLang === "cs" ? "en" : "cs";
+    loadTranslations(currentLang);
+  });
+
+  loadTranslations(currentLang);
+});
+
 /* toggle icon navbar*/
 let menuIcon = document.querySelector("#menu-icon");
 let navbar = document.querySelector(".navbar");
