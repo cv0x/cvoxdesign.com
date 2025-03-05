@@ -24,7 +24,17 @@
     "h3SkillsAuto":"Automatizované testování",
     "pSkillsAuto":"Automatizace testů pomocí frameworku Playwright nebo Cypress.",
     "h3SkillsOther":"Ostatní technologie",
-    "pSkillsOther":"Proxmox, Linux server, Docker, Portainer, SQL DB, Node-Red, Home Assistant"
+    "pSkillsOther":"Proxmox, Linux server, Docker, Portainer, SQL DB, Node-Red, Home Assistant",
+    "pProjectPhoto":"Python nástroj pro automatické rozřazení fotografií do složek, podle datumu pořízení fotografií.",
+    "pProjectBtcTracker":"Tapeta do aplikace Wallpaper Engine, která sleduje aktuální cenu Bitcoinu.",
+    "pProjectSwing":"Webová aplikace s časovačem navržená tak, aby vám pomohla sledovat váš pokrok.",
+    "pProject2048":"Jednoduchá hra 2048 v JavaScriptu.",
+    "pProjectTrezorStand":"Modelování a 3D Tisk stojánku na hardware peněženku Trezor Safe 3.",
+    "pProjectEthTracker":"Tapeta do aplikace Wallpaper Engine, která zobrazuje aktuální cenu Etherea.",
+    "pProjectCappuccino":"Modelování a 3D Tisk šablony na cappuccino ve tvaru Bitcoinu.",
+    "pProjectBookmark":"Modelování a 3D Tisk záložky do knihy na téma Breaking Bad.",
+    "pProjectWeb1":"Project z roku 2015, kdy jsem se snažil vytvořit web pro místní fitko.",
+    "pProjectWeb2":"Project ve stejném stylu jako project pro fitko."
   },
   "en": {
     "home": "Home",
@@ -51,6 +61,16 @@
     "h3SkillsAuto":"Automated testing",
     "pSkillsAuto":"Test automation using the Playwright or Cypress framework.",
     "h3SkillsOther":"Other technologies",
-    "pSkillsOther":"Proxmox, Linux server, Docker, Portainer, SQL DB, Node-Red, Home Assistant"
+    "pSkillsOther":"Proxmox, Linux server, Docker, Portainer, SQL DB, Node-Red, Home Assistant",
+    "pProjectPhoto":"Python tool for automatically sorting photos into folders, based on the date the photos were taken.",
+    "pProjectBtcTracker":"Wallpaper for the Wallpaper Engine application that tracks the current Bitcoin price.",
+    "pProjectSwing":"A web application with a timer designed to help you track your progress in the kettlebell challenge.",
+    "pProject2048":"A simple 2048 game in JavaScript.",
+    "pProjectTrezorStand":"Modeling and 3D Printing of a stand for the Trezor Safe 3 hardware wallet.",
+    "pProjectEthTracker":"Wallpaper Engine wallpaper showing the current price of Ethereum.",
+    "pProjectCappuccino":"Modeling and 3D Printing a Bitcoin-shaped cappuccino template.",
+    "pProjectBookmark":"Modeling and 3D Printing a bookmark for a book on the theme of Breaking Bad.",
+    "pProjectWeb1":"Project from 2015, when I tried to create a website for a local gym.",
+    "pProjectWeb2":"A project in the same style as the project for the gym."
   }
 }
